@@ -4,28 +4,32 @@
 <head>
   <meta charset="utf-8">
 
-  <title>95tj recruit Giude</title>
+  <title>95th Recruit Guide</title>
   
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="body">
   
-  <h1>Additional recruit information</h1>
-  <div>by wxng12</div>
-  <div>updated January 13 2026</div>
+  <section style="font-style: italic;">
+    <h1>Additional 95th Recruit Information</h1>
+    <div>by wxng12</div>
+    <div>Last updated: January 16 2026</div>
 
-  <img src="95th.png" style="width: 250px; height: 250px;">
+    <br>
+    <img src="95th.png" style="width: 167px; height: 167px;">
+  </section>
 
   <h2>Resources</h2>
 
-  <a href="https://docs.google.com/spreadsheets/d/1ovCK0eD8FVL9dMHY9nY_gzM5q4LSsd53U_QxDDNQOrU/edit?gid=247858763#gid=247858763">95th roster</a><br>
-  <a href="https://discord.gg/principes">ba first division discord server</a><br>
-  <a href="https://discord.gg/UuEh9a8SGc">staff server</a>
+  <a href="https://docs.google.com/spreadsheets/d/1ovCK0eD8FVL9dMHY9nY_gzM5q4LSsd53U_QxDDNQOrU/edit?gid=247858763#gid=247858763">95th Roster</a><br>
+  <a href="https://discord.gg/principes">BA First Division Discord</a><br>
+  <a href="https://discord.gg/UuEh9a8SGc">Staff Discord</a>
 
   <h2>Promotion</h2>
+  <button onclick="promo()">hide/show</button>
 
-  <section>
+  <section id="promo">
     <div>
       You get promoted with a points system. Check your points in the Google Sheets roster. 
       Each battle you attend adds 50 points to your name. For the roster to know you attended a battle, stay for 1-2 minutes until audit is taken. You can ask your commander if audit has been taken yet.
@@ -77,8 +81,9 @@
   </section>
 
   <h2>Battles, Times, Lines vs. Skirmishers</h2>
+  <button onclick="battle()">hide/show</button>
 
-  <section>
+  <section id="battle">
     <div>
       Rally is 30 minutes prior to battle start. It is also when the code is first released, and you receive training/practice during rally.
       Battle times observe daylight savings time. Below are battle times.
@@ -129,7 +134,7 @@
       <tr>
         <td>NA</td>
         <td>1 line (20+)</td>
-        <td style="background-color: gray;">break</td>
+        <td></td>
         <td>1 skirm (15)</td>
         <td>1 skirm (15)</td>
         <td>1 skirm (15)</td>
@@ -139,7 +144,7 @@
       <tr>
         <td>EU</td>
         <td>2 lines (40+)</td>
-        <td style="background-color: gray;">break</td>
+        <td></td>
         <td>2 skirms (26)</td>
         <td>2 skirms (26)</td>
         <td>2 skirms (26)</td>
@@ -148,20 +153,21 @@
       </tr>
       <tr>
         <td>Early</td>
-        <td style="background-color: gray;"></td>
-        <td style="background-color: gray;">break</td>
+        <td></td>
+        <td></td>
         <td>1 skirm (13)</td>
         <td>1 skirm (13)</td>
         <td>1 skirm (13)</td>
         <td>1 skirm (13)</td>
-        <td style="background-color: gray;"></td>
+        <td></td>
       </tr>
     </table>
   </section>
 
   <h2>Uniforms, Obtaining Unis in Barraux</h2>
+  <button onclick="uni()">hide/show</button>
 
-  <section>
+  <section id="uni">
     <div>
       The only way to get a uniform is from someone with officer permissions (or higher). You can typically only get uniforms in rally/battle, 
       and usually, you need to ask your commander for one.
@@ -176,6 +182,39 @@
       To wear a British uniform, ask a officer/general/coordinator for BA tags, and you will wear the last British uniform you had equipped 
       (could be no uniform if you've never worn one).
     </div>
+  </section>
+
+  <h2>Need help? NCO and Officer List</h2>
+  <button onclick="staff()">hide/show</button>
+
+  <section id="staff">
+    <div>
+      Who to ping for help is below. You can DM them, ping them in #95th-comms or ask them in your platoon forum (if you are in a platoon). 
+      Only DM/ping them if they are online!
+    </div>
+
+    <div>
+      Active retention staff with timezones (if timezone known):
+    </div>
+    <ul>
+      <li>SpeedySnake723 (EU)</li>
+      <li>iliekmen_haha (EU/NA)</li>
+      <li>wxng12 (NA)</li>
+      <li>AGENT_QUICKDRAW (EU)</li>
+      <li>itsdenilson (EU)</li>
+      <li>Tam_the2 (EU)</li>
+      <li>AltAccOfTurkMan (EU)</li>
+    </ul>
+
+    <div>
+      Experienced officers:
+    </div>
+    <ul>
+      <li>Ickydragonfly (EU)</li>
+      <li>Mario (EU)</li>
+      <li>Hparso1524 (EU)</li>
+      <li>Lord_Matteisvore (EU)</li>
+    </ul>
   </section>
 
   <script src="script.js"></script>

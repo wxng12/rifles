@@ -1,31 +1,33 @@
 
 html {
     background-color: beige;
+    color: black;
 
     font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+}
+
+h2 {
+    background-color: #dbdba9;
+    max-width: 65%;
+}
+
+section {
+    max-width: 65%;
 }
 
 div {
-    max-width: 50%;
+    max-width: 100%;
     padding: 8px;
 }
 
-table {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
 td {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-
     max-width: 250px;
     padding: 5px;
 }
 th {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    
+    border-left-color: #f5f5f5;
+    border-right-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
