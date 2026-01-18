@@ -25,9 +25,13 @@ div {
 td {
     max-width: 250px;
     padding: 5px;
+    font-style: italic;
 }
 th {
-    border-left-color: #f5f5f5;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: dashed;
+    /*border-left-color: #f5f5f5;
     border-right-color: #f5f5f5;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5;*/
 }
