@@ -25,6 +25,15 @@ function uni() {
     }
 }
 
+function assist() {
+    if (document.getElementById('assist').style.display != 'none') {
+        document.getElementById('assist').style.display = 'none';
+    }
+    else {
+        document.getElementById('assist').style.display = 'block';
+    }
+}
+
 function staff() {
     if (document.getElementById('staff').style.display != 'none') {
         document.getElementById('staff').style.display = 'none';

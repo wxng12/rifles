@@ -35,3 +35,19 @@ th {
     border-right-color: #f5f5f5;
     background-color: #f5f5f5;*/
 }
+
+.staff-left-column {
+    border-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: end;
+    vertical-align: top;
+    column-width: 100px;
+    color: gray;
+}
+
+.staff-right-column {
+    padding: 1px;
+    max-width: 450px;
+    font-style: normal;
+}
