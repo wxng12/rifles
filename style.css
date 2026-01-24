@@ -51,3 +51,7 @@ th {
     max-width: 450px;
     font-style: normal;
 }
+
+.bold {
+    font-weight: bold;
+}

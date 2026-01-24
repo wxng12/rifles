@@ -42,3 +42,12 @@ function staff() {
         document.getElementById('staff').style.display = 'block';
     }
 }
+
+function companies() {
+    if (document.getElementById('companies').style.display != 'none') {
+        document.getElementById('companies').style.display = 'none';
+    }
+    else {
+        document.getElementById('companies').style.display = 'block';
+    }
+}
